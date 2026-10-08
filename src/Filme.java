@@ -2,10 +2,18 @@ public class Filme {
     String nome;
     int anoDeLancamento;
     boolean incluidoNoPlano;
-    double somaDasAvaliacao;
-    int totalDeAvaliacoes;
+    private double somaDasAvaliacao;
+    private int totalDeAvaliacoes;
     int duracaoEmMinutos;
 
+
+    public double getSomaDasAvaliacao() {
+        return somaDasAvaliacao;
+    }
+
+    public int getTotalDeAvaliacoes() {
+        return totalDeAvaliacoes;
+    }
 
     @Override
     public String toString() {
