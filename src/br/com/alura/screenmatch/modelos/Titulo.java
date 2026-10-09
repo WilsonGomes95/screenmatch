@@ -9,6 +9,14 @@ public class Titulo {
     private int duracaoEmMinutos;
 
 
+    public int getDuracaoEmMinutos() {
+        return duracaoEmMinutos;
+    }
+    
+    public void setDuracaoEmMinutos(int duracaoEmMinutos) {
+        this.duracaoEmMinutos = duracaoEmMinutos;
+    }
+
     public double getSomaDasAvaliacao() {
         return somaDasAvaliacao;
     }
@@ -36,7 +44,7 @@ public class Titulo {
 
     @Override
     public String toString() {
-        return String.format("Nome do br.com.alura.screenmatch.modelos.Filme: %s\n" +
+        return String.format("Nome do Filme: %s\n" +
                         "Ano de Lançamento: %d\n"
                 , nome, anoDeLancamento);
     }
